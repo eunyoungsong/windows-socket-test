@@ -1,0 +1,10 @@
+^C:\USERS\EUNYOUNG\DEV\SOCKET_CLIENT\BUILD\CMAKEFILES\5D35673D2CF323C66685782CD8ECBB83\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/eunyoung/dev/socket_client -BC:/Users/eunyoung/dev/socket_client/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/eunyoung/dev/socket_client/build/socket_programing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

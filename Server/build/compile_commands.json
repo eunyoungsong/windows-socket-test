@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/dev/soket_programing/server/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -o CMakeFiles\\socket_programing.dir\\src\\day06_01.c.obj -c C:\\dev\\soket_programing\\server\\src\\day06_01.c",
+  "file": "C:/dev/soket_programing/server/src/day06_01.c"
+}
+]
